@@ -1,0 +1,16 @@
+These are two small examples of how works the merging in the KDE XML-GUI
+technology.
+
+In the folder "example2" is the example of the default behaviour.
+The folder "example3" shows a that using <DefineGroup> the default behavour can
+be avoided, thus allowing the implementation of a tool that will let kipi-host
+application to customize the GUI using XML configuration files.
+
+Each folder contains a "build.sh" script that helps building, runing and
+uninstalling the examples. It accepts the following arguments:
+    build     -> only to build and install the example to KDE prefix. I have
+                 tried to install in the $HOME but it does not work correctly,
+                 but in the KDE prefix it works good, so you will be asked for
+                 the root password to install the example.
+    run       -> run the example.
+    uninstall -> run sudo make uninstall in the build directory

@@ -14,10 +14,10 @@ ComponentB::ComponentB(): KXMLGUIClient()
 
 void ComponentB::setupActions()
 {
-    component_b = new KAction(0);
-    component_b->setText(i18n("Component &B"));
-    component_b->setShortcut(Qt::CTRL + Qt::Key_A);
-    actionCollection()->addAction("componentb", component_b);
+    action_b = new KAction(0);
+    action_b->setText(i18n("Action &B"));
+    action_b->setShortcut(Qt::CTRL + Qt::Key_C);
+    actionCollection()->addAction("componentb", action_b);
 
     setXMLFile("component_b.rc");
 }

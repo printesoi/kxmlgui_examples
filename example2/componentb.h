@@ -11,7 +11,7 @@ public:
 
 
 private:
-    KAction* component_b;
+    KAction* action_b;
     void setupActions();
 };
 
