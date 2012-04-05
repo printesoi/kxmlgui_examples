@@ -1,0 +1,11 @@
+We can see how easy is to add actions in the menu and in the toolbar using XML
+configuration files. We can change the configuration files to modify the GUI
+layout without recompiling the code.
+To avoid to default behaviour, we can we use <DefineGroup> tag or even better
+<ActionList> tag. In this example I changed the menu order and now, "Action 2"
+is below "Component B" even if it was created first.
+
+To build and run :
+./build.sh # this will install the program to the kde prefix
+kxmlexample # to run the program
+make uninstall # to uninstall

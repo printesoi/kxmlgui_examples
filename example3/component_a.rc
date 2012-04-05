@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gui name="componenta"
+version="1"
+xmlns="http://www.kde.org/standards/kxmlgui/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.kde.org/standards/kxmlgui/1.0
+    http://www.kde.org/standards/kxmlgui/1.0/kxmlgui.xsd" >
+
+        <MenuBar>
+            <Menu name="ComponentA" ><text>Component &amp;A</text>
+                <Action name="action_a1" />
+            </Menu>
+            <Menu name="ComponentB" ><text>Component &amp;B</text>
+                <Action name="action_a2" group="groupa" />
+            </Menu>
+        </MenuBar>
+
+        <ToolBar name="mainToolBar" >
+            <text>Main Toolbar</text>
+            <Action name="action_a1" />
+        </ToolBar>
+
+    </gui>

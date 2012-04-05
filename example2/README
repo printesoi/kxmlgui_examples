@@ -1,0 +1,7 @@
+We can see how easy is to add actions in the menu and in the toolbar using XML
+configuration files. We can change the configuration files to modify the GUI
+layout without recompiling the code.
+This example shows that entries in the menu are added in the order that
+KXmlGuiClient-s are added. Look that because ComponentA is created first,
+action "Action A 2" is located above action "Component B" both located in the
+menu "Component B".
