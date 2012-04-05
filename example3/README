@@ -1,11 +1,10 @@
 We can see how easy is to add actions in the menu and in the toolbar using XML
 configuration files. We can change the configuration files to modify the GUI
 layout without recompiling the code.
+In the example2 we saw the default behaviour: entries are added in the order
+that clients are created.
 To avoid to default behaviour, we can we use <DefineGroup> tag or even better
 <ActionList> tag. In this example I changed the menu order and now, "Action 2"
-is below "Component B" even if it was created first.
-
-To build and run :
-./build.sh # this will install the program to the kde prefix
-kxmlexample # to run the program
-make uninstall # to uninstall
+is below "Component B" even if it was created first. We can also notice that
+the two menus "Component A" and "Component B" now right after the "File" menu
+without touching the C++ code, only changing the XML files.

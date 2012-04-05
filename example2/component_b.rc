@@ -8,13 +8,13 @@ xsi:schemaLocation="http://www.kde.org/standards/kxmlgui/1.0
 
         <MenuBar>
             <Menu name="ComponentB" ><text>Component &amp;B</text>
-                <Action name="componentb" />
+                <Action name="action_b" />
             </Menu>
         </MenuBar>
 
         <ToolBar name="mainToolBar" >
             <text>Main Toolbar</text>
-            <Action name="componentb" />
+            <Action name="action_b" />
         </ToolBar>
 
     </gui>
