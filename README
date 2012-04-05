@@ -1,8 +1,8 @@
 These are two small examples of how works the merging in the KDE XML-GUI
 technology.
 
-In the folder "example2" is the example of the default behaviour.
-The folder "example3" shows a that using <DefineGroup> the default behavour can
+In the folder "example2" is the example of the default behavior.
+The folder "example3" shows a that using <DefineGroup> the default behavor can
 be avoided, thus allowing the implementation of a tool that will let kipi-host
 application to customize the GUI using XML configuration files.
 
